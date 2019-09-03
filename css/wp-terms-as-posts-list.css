@@ -1,0 +1,71 @@
+.edit-tags-php div.wrap > .wp-header-end {
+    margin-bottom: 10px
+}
+
+.edit-tags-php .search-form {
+    width: 50%;
+    float: right;
+    display: inline;
+    top: 13px;
+    position: relative;
+    z-index: 1
+}
+
+.edit-tags-php #col-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: -50px;
+    position: relative
+}
+
+.edit-tags-php #col-container #col-left,
+.edit-tags-php #col-container #col-right {
+    width: 100% !important
+}
+
+.edit-tags-php #col-container #col-left .col-wrap,
+.edit-tags-php #col-container #col-right .col-wrap {
+    padding: 0
+}
+
+.edit-tags-php #col-container #col-right #name,
+.edit-tags-php #col-container #col-right #slug {
+    width: 220px
+}
+
+.edit-tags-php #col-container #col-right #description {
+    width: auto
+}
+
+.edit-tags-php #col-container #col-right #posts {
+    width: 100px
+}
+
+.edit-tags-php #col-container #addtag {
+    width: 50%
+}
+
+.edit-tags-php #col-container #addtag .form-field:not(.form-required),
+.edit-tags-php #col-container .postbox,
+.edit-tags-php #col-container h2 {
+    display: none !important;
+    visibility: hidden
+}
+
+.edit-tags-php #col-container p.submit {
+    float: left
+}
+@media screen and (max-width: 782px) {
+    .edit-tags-php .search-form {
+        display: none;
+    }
+
+    .edit-tags-php #col-container {
+        top: -20px;
+    }
+
+    .edit-tags-php #col-container #col-right #name {
+        width: 100%;
+    }
+}

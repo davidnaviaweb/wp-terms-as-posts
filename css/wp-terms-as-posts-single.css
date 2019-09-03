@@ -1,0 +1,114 @@
+#edittag {
+    max-width: none !important
+}
+
+#edittag .form-table > tbody > tr {
+    display: flex !important;
+    flex-direction: column !important
+}
+
+#edittag .form-table th,
+#edittag .form-table td {
+    width: 100% !important;
+    padding: 10px 10px 0 !important
+}
+
+#edittag .form-table {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    padding: 10px;
+    margin: 0 0 20px
+}
+
+#edittag .term-description-wrap {
+    width: calc(100% - 20px)
+}
+
+#edittag > :not(.edit-tag-actions) {
+    width: calc(100% - 230px) !important;
+    float: left
+}
+
+#edittag .edit-tag-actions {
+    position: relative;
+    width: 200px !important;
+    padding: 0 !important;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: -30px
+}
+
+#edittag .edit-tag-actions:before {
+    content: attr(data-title);
+    text-align: right;
+    padding: 10px !important;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin: 0;
+    display: block;
+    font-size: 14px !important;
+    line-height: 1.4;
+    color: #23282d;
+    font-weight: 600;
+    width: calc(100% - 20px)
+}
+
+#edittag .edit-tag-actions > input,
+#edittag .edit-tag-actions > span {
+    width: 50%;
+    margin: 10px
+}
+
+#edittag .edit-tag-actions > span {
+    text-align: right
+}
+
+#edittag [class$=-taxonomy-metabox-postbox] > h2 {
+    margin: 0;
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    line-height: 1.4
+}
+
+@media screen and (max-width: 782px) {
+    #edittag {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #edittag .form-table,
+    #edittag .edit-tag-actions {
+        width: 100% !important;
+    }
+
+    #edittag .edit-tag-actions {
+        display: block;
+        position: relative;
+        clear: both;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    #edittag .edit-tag-actions:before {
+        text-align: left;
+    }
+
+    #edittag .edit-tag-actions > input, #edittag .edit-tag-actions > span {
+        width: 150px;
+        float: right;
+        margin: 10px;
+    }
+
+    #edittag .form-table th, #edittag .form-table td {
+        width: calc(100% - 20px) !important;
+    }
+    #edittag .term-description-wrap {
+        width: 100%;
+    }
+}
