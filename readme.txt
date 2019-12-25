@@ -10,13 +10,10 @@ License: WTFPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-This plugin adds a simple CSS stylesheet and a bit of JS in order to show the terms list and the single term edition
-screen like if they
-were posts.
+This plugin adds a simple CSS stylesheet and a bit of JS in order to show the terms list and the single term edition screen like if they were posts.
 
 == Installation ==
-Just download the plugin and upload the zip to your server or install it directly from the plugins repository, and
-activate. This plugin has no further configuration.
+Just download the plugin and upload the zip to your server or install it directly from the plugins repository, and activate. This plugin has no further configuration.
 
 == Screenshots ==
 1. This is how the terms list screen is shown.
@@ -31,5 +28,4 @@ activate. This plugin has no further configuration.
 It is just the first release.
 
 == Frequently Asked Questions ===
-Is this plugin useful? = Maybe not, but I'm sure you will like the visual continuity through the different WordPress
-screens.
+Is this plugin useful? = Maybe not, but I'm sure you will like the visual continuity through the different WordPress screens.
