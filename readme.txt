@@ -1,4 +1,4 @@
-=== WP Terms screens as Posts ===
+=== WP Terms as Posts ===
 Contributors: davidnaviaweb
 Donate link: http://davidnaviaweb.com/
 Tags: terms, posts, edition screen
