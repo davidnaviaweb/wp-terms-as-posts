@@ -4,7 +4,7 @@ Donate link: http://davidnaviaweb.com/
 Tags: terms, posts, edition screen
 Requires at least: 4.9
 Tested up to: 5.3.2
-Stable tag: 1.0
+Stable tag: 1.1
 Requires PHP: 7.0
 License: WTFPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,10 +22,15 @@ Just download the plugin and upload the zip to your server or install it directl
 == Changelog ==
 = 1.0 =
 * First public release
+= 1.1 =
+* Add RTL support
 
 == Upgrade Notice ==
 = 1.0 =
 It is just the first release.
+
+= 1.1 =
+We have added support to RTL languages 🎉🎉🎉
 
 == Frequently Asked Questions ===
 Is this plugin useful? = Maybe not, but I'm sure you will like the visual continuity through the different WordPress screens.
